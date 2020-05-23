@@ -7,14 +7,14 @@ for iteration in range(iterations):
 
     for i in range(4):
         # Get a reference to the task to pipe to.
-        next_task = Task.get_task('2c7c7a30254b4fff834790d4d3983a3e')
+        next_task = Task.get_task('4fbcbf1d2eee4d3d97f329bfc3a8edab')
         # Clone the task to pipe to. This creates a task with status Draft whose parameters can be modified.
         cloned_task = Task.clone(source_task=next_task)
         Task.enqueue(cloned_task.id, queue_name='A1-Queue')
 
     for i in range(2):
         # Get a reference to the task to pipe to.
-        next_task = Task.get_task('3dfd8c59a5ed4053ac64d5142cfbbb04')
+        next_task = Task.get_task('fd395a44be7942129d8c32940c33ab14')
 
         # Clone the task to pipe to. This creates a task with status Draft whose parameters can be modified.
         cloned_task = Task.clone(source_task=next_task)

@@ -19,6 +19,7 @@ tf.name_scope to make a graph legible in the TensorBoard graph explorer, and of
 naming summary tags so that they are grouped meaningfully in TensorBoard.
 
 It demonstrates the functionality of every TensorBoard dashboard.
+x
 """
 from __future__ import absolute_import
 from __future__ import division
