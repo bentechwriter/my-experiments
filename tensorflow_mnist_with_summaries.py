@@ -198,11 +198,11 @@ if __name__ == '__main__':
     parser.add_argument('--fake_data', nargs='?', const=True, type=bool,
                         default=False,
                         help='If true, uses fake data for unit testing.')
-    parser.add_argument('--max_steps', type=int, default=300,
+    parser.add_argument('--max_steps', type=int, default=500,
                         help='Number of steps to run trainer.')
-    parser.add_argument('--learning_rate', type=float, default=0.001,
+    parser.add_argument('--learning_rate', type=float, default=0.0001,
                         help='Initial learning rate')
-    parser.add_argument('--dropout', type=float, default=0.9,
+    parser.add_argument('--dropout', type=float, default=0.7,
                         help='Keep probability for training dropout.')
     parser.add_argument('--data_dir', type=str,
                         default=os.path.join(tempfile.gettempdir(), 'tensorflow', 'mnist', 'input_data'),
@@ -213,7 +213,7 @@ if __name__ == '__main__':
                         help='Summaries log directory')
     parser.add_argument('--save_path', default=os.path.join(tempfile.gettempdir(), "model.ckpt"),
                         help='Save the trained model under this path')
-    parser.add_argument('--batch_size', default=100,
+    parser.add_argument('--batch_size', default=50,
                         help='Batch size for training')
     FLAGS, unparsed = parser.parse_known_args()
     tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
