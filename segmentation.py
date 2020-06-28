@@ -6,7 +6,7 @@ import random
 task = Task.init(project_name='segmentation', task_name='segmentation')
 logger = task.get_logger()
 
-iterations = 5000
+iterations = 500
 for iteration in range(iterations):
     if iteration % 100 == 0:
         print('{} / {}'.format(iteration, iterations))
