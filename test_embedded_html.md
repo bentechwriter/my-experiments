@@ -12,7 +12,7 @@ Code using pre and code elements:
 
 A sentence with a span: <span class="unknown_class">this is inside a span element</span>.
 
-An admonition:
+An admonition with html:
 
 <div class="unknown_class'>>
   <p class="unknown_class'>Admonition title
@@ -20,8 +20,44 @@ An admonition:
   <p>Admonition text.
   </p>
 </div>
+                          
+Admonitions with GitHub markdown:                          
+                          
+> **WARNING**: Be careful!
 
-Simple list:
+| --- |
+| Be careful |
+
+| WARNING: be careful! |
+| --- |
+
+| **WARNING**: be careful! |
+| --- |
+
+Markdown simple list with code:
+
+* One
+
+    x = y * 3
+    
+* Two
+* Three
+
+Markdown nested list with code:
+
+* Item 1
+
+    * One
+
+        x = y * 3
+
+    * Two
+    * Three
+
+* Item 2
+* Item 3
+
+Simple list with ul li elements:
 
 <ul>
   <li>One
@@ -32,7 +68,7 @@ Simple list:
   </li>
 </ul>
 
-Simple list with code:
+Simple list with  ul li pre code elements:
 
 <ul>
   <li>One
@@ -57,7 +93,7 @@ Simple list with CSS:
 </ul>
 
 
-Nested list with code:
+Nested list with ul li pre codeelements:
 
 <ol>
   <li>
