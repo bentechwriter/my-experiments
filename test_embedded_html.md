@@ -1,12 +1,25 @@
 <h1>Heading 1</h1>
 
-<p>A sentence in p tags.</p>
+<p>A sentence in p elements.</p>
 
-Code:
+Code using markdown indent:
 
-  x = y * 2
+    x = y * 2
 
-A sentence with a span about <span class="unknown_class">name</span>
+Code using pre and code elements:
+
+<pre><code>x = y * 2</code></pre>
+
+A sentence with a span: <span class="unknown_class">this is inside a span element</span>.
+
+An admonition:
+
+<div class="unknown_class'>>
+  <p class="unknown_class'>Admonition title
+  </p>
+  <p>Admonition text.
+  </p>
+</div>
 
 Simple list:
 
