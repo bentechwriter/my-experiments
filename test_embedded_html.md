@@ -38,7 +38,7 @@ Markdown simple list with code:
 
 * One
 
-    x = y * 3
+        x = y * 3
     
 * Two
 * Three
@@ -49,7 +49,7 @@ Markdown nested list with code:
 
     * One
 
-        x = y * 3
+            x = y * 3
 
     * Two
     * Three
