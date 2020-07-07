@@ -25,7 +25,6 @@ Admonitions with GitHub markdown:
                           
 > **WARNING**: Be careful!
 
-| --- |
 | Be careful |
 
 | WARNING: be careful! |
