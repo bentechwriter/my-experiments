@@ -1,0 +1,9 @@
+argparse
+numpy==1.19.3
+pandas
+Pillow
+plotly
+tensorflow
+torch
+torchvision
+clearml
